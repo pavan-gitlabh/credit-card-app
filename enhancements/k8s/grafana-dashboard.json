@@ -1,0 +1,17 @@
+{
+  "dashboard": {
+    "title": "Credit Card App Dashboard",
+    "panels": [
+      {
+        "type": "graph",
+        "title": "HTTP Requests",
+        "targets": [
+          {
+            "expr": "http_server_requests_seconds_count",
+            "format": "time_series"
+          }
+        ]
+      }
+    ]
+  }
+}
